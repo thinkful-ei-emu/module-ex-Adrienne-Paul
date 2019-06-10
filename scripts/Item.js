@@ -1,8 +1,7 @@
 'use strict';
-
+/*global cuid*/
 
 let Item=(function(){
-  const foo = 'bar';
   const validateName = function(name){
     if (!name) {
       throw new TypeError ('Name does not exist');
